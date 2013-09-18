@@ -15,3 +15,17 @@ This module works by:
 This module is really just a horrible kludge around submitting massive amounts of form information to PHP from a massive, massive HTML form and shouldn't be used for any serious purpose.
 
 See the form.php file for an example of this in action.
+
+
+Usage
+=====
+NOTE: This module requires some version of jQuery and the included base64.js file.
+
+In your HTML file:
+
+	<script src="/path/to/this/module/base64.js"/>
+	<script src="/path/to/this/module/overload.js"/>
+
+And in your reciving PHP file:
+
+	include('/path/to/this/module/overload.php');
