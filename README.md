@@ -14,7 +14,7 @@ This module works by:
 
 This module is really just a horrible kludge around submitting massive amounts of form information to PHP from a massive, massive HTML form and shouldn't be used for any serious purpose.
 
-See the form.php file for an example of this in action.
+See the `examples/index.php` file for an example of this in action.
 
 
 Usage
