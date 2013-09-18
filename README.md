@@ -1,6 +1,6 @@
 PHP-PostOverload
 ================
-A method of posting massive amounts of POST data between HTML/JavaScript and PHP.
+A kludge to post massive amounts of POST data between HTML/JavaScript and PHP.
 
 PHP has the [max_input_vars](http://www.php.net/manual/en/info.configuration.php#ini.max-input-vars) variable which restricts the amount of information PHP can import into the POST variable. But what if you have massive amounts of variables that you absolutely have to provide to PHP without hitting this limit?
 
